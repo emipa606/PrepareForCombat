@@ -1,4 +1,6 @@
-﻿using Mlie;
+﻿using System.Reflection;
+using HarmonyLib;
+using Mlie;
 using UnityEngine;
 using Verse;
 
@@ -23,6 +25,7 @@ internal class PrepareForCombatMod : Mod
         instance = this;
         Settings = GetSettings<PrepareForCombatSettings>();
         currentVersion = VersionFromManifest.GetVersionFromModMetaData(content.ModMetaData);
+        new Harmony("Mlie.PrepareForCombat").PatchAll(Assembly.GetExecutingAssembly());
     }
 
     /// <summary>

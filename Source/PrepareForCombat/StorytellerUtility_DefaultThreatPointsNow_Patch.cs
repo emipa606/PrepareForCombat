@@ -93,7 +93,7 @@ internal static class StorytellerUtility_DefaultThreatPointsNow_Patch
         num *= target.IncidentPointsRandomFactorRange.RandomInRange;
         num *= Find.Storyteller.difficulty.threatScale;
         num *= Find.Storyteller.def.pointsFactorFromDaysPassed.Evaluate(GenDate.DaysPassed);
-        __result = Mathf.Clamp(num, 35f, 10000f);
+        __result = Mathf.Clamp(num, GlobalMinPoints, GlobalMaxPoints);
         return false;
     }
 }

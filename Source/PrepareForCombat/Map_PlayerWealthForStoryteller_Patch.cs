@@ -41,6 +41,7 @@ internal static class Map_PlayerWealthForStoryteller_Patch
                    (PrepareForCombatMod.instance.Settings.percentWealthBuildings *
                     __instance.wealthWatcher.WealthBuildings *
                     0.5f) + __instance.wealthWatcher.WealthPawns;
+
         return false;
     }
 }
