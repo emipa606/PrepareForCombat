@@ -74,8 +74,5 @@ When enabled, only pawns capable of fighting will be included in the threat calc
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/]![Image](https://img.shields.io/github/v/release/emipa606/PrepareForCombat?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
-
 https://steamcommunity.com/sharedfiles/filedetails/changelog/3039568123]![Image](https://img.shields.io/github/v/release/emipa606/PrepareForCombat?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
